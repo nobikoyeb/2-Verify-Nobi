@@ -34,7 +34,7 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002075513033'))
 QR_CODE = environ.get('QR_CODE', 'https://t.me/Nobi_Movies_Request/7')
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002075513033'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001987729563'))
 URL = environ.get('URL', 'https://nobiakssujal-2a770e5b4981.herokuapp.com/')
 
 # verify system vars
@@ -54,10 +54,10 @@ LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001513688942'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1001513688942'))
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001513688942'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001987729563'))
 
 # hastags request features
-request_channel = environ.get('REQUEST_CHANNEL', '-1001513688942')
+request_channel = environ.get('REQUEST_CHANNEL', '-1001987729563')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 
 # bot settings
