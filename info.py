@@ -21,7 +21,7 @@ def is_enabled(value, default):
 API_ID = int(environ.get('API_ID', '26823235'))
 API_HASH = environ.get('API_HASH', '5a1f8f94d3a79d3c650edce7f667c380')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6665782219:AAFYnRKdnutjN4Rx4_EVYGP9AWgu0Hk7Sb8')
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6659090038').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6659090038 6056290459').split()]
 USERNAME = environ.get('USERNAME', 'https://t.me/Dhruvmradiya')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002075513033'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Nobi_Movies_Request')
