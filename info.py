@@ -35,7 +35,7 @@ QR_CODE = environ.get('QR_CODE', 'https://t.me/Nobi_Movies_Request/7')
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002075513033'))
-URL = environ.get('URL', 'https://aks-file-to-link-525cd78edc50.herokuapp.com')
+URL = environ.get('URL', 'https://nobiakssujal-2a770e5b4981.herokuapp.com/')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
