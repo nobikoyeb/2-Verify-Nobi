@@ -25,7 +25,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', 'https://t.me/nobi_movies_bot')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002075513033'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Nobi_Movies_Request')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002126003998').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002084096213').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://czlinksowner:nobi@cluster0.s8we5dh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://czlinksowner:nobi@cluster0.p8hjboi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "czlinksowner")
@@ -54,10 +54,10 @@ LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001513688942'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1001513688942'))
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001987729563'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1006056290459'))
 
 # hastags request features
-request_channel = environ.get('REQUEST_CHANNEL', '-1001987729563')
+request_channel = environ.get('REQUEST_CHANNEL', '-1006056290459')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 
 # bot settings
