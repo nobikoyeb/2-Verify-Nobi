@@ -54,10 +54,10 @@ LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001513688942'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1001513688942'))
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1006056290459'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001987729563'))
 
 # hastags request features
-request_channel = environ.get('REQUEST_CHANNEL', '-1006056290459')
+request_channel = environ.get('REQUEST_CHANNEL', '-1001987729563')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 
 # bot settings
