@@ -22,7 +22,7 @@ API_ID = int(environ.get('API_ID', '26823235'))
 API_HASH = environ.get('API_HASH', '5a1f8f94d3a79d3c650edce7f667c380')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6665782219:AAFYnRKdnutjN4Rx4_EVYGP9AWgu0Hk7Sb8')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6659090038').split()]
-USERNAME = environ.get('USERNAME', 'https://t.me/nobi_movies_bot')
+USERNAME = environ.get('USERNAME', 'https://t.me/Dhruvmradiya')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002075513033'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Nobi_Movies_Request')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002084096213').split()]
@@ -31,7 +31,7 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://czlinksowner:nobi@cl
 DATABASE_NAME = environ.get('DATABASE_NAME', "czlinksowner")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Aks')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002075513033'))
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/901c940e1e0f64e0fe6ac.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://t.me/Nobi_Movies_Request/7')
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001987729563'))
