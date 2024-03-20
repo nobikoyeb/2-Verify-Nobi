@@ -18,46 +18,46 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '9544691'))
-API_HASH = environ.get('API_HASH', 'de2f2e633c293dcb0f73deebc364c306')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6540424193:AAFSO7TDITl1X73YhV56P1z-0e0kHgg7vWY')
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1030335104').split()]
-USERNAME = environ.get('USERNAME', 'https://t.me/Aks_support01_bot')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001769642119'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/masalafiles')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001805305525').split()]
+API_ID = int(environ.get('API_ID', '20746293'))
+API_HASH = environ.get('API_HASH', '028e3db6c0b38a618bbc9c4bfc00dbf9')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6665782219:AAFYnRKdnutjN4Rx4_EVYGP9AWgu0Hk7Sb8')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6659090038 5800354128 2038847704').split()]
+USERNAME = environ.get('USERNAME', 'https://t.me/Dhruvmradiya')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002075513033'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Nobi_Movies_Request')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002126003998').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ttttechnicalaks7:cHyZwKd4s5z4OXd4@cluster0.cmxxezj.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://ttttechnicalaks7:popularaks7@cluster0.wzr4k9b.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Aks2")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Aks')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001925490938'))
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/901c940e1e0f64e0fe6ac.jpg')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002075513033'))
+QR_CODE = environ.get('QR_CODE', 'https://t.me/Nobi_Movies_Request/7')
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001696019751'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002075513033'))
 URL = environ.get('URL', 'https://aks-file-to-link-525cd78edc50.herokuapp.com')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001508306685'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/how_to_download_channel/18")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/how_to_download_channel/17")
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002075513033'))
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/turtorialvideo/2")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/turtorialvideo/2")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "5427d2515bc7de8e0f494082dadeb107fbcebf8f")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "earnpro.in")
-SHORTENER_API2 = environ.get("SHORTENER_API2", "06b24eb6bbb025713cd522fb3f696b6d5de11354")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "tnshort.net")
+SHORTENER_API = environ.get("SHORTENER_API", "836d10a0655083cc1a383c79cac81b44be597b82")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "Krishnalink.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "e9365c39c9a8a6a9f6cc530385d90bb92b7e7bd9")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "zxlink.in")
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
 
 # languages search
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001934393406'))
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1001934393406'))
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001857065489'))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001513688942'))
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1001513688942'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001513688942'))
 
 # hastags request features
-request_channel = environ.get('REQUEST_CHANNEL', '-1001798901887')
+request_channel = environ.get('REQUEST_CHANNEL', '-1001513688942')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 
 # bot settings
