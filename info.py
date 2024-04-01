@@ -28,7 +28,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Nobi_Movies_Req
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002084096213').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://czlinksowner:nobi@cluster0.s8we5dh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://czlinksowner:nobi@cluster0.p8hjboi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "czlinksowner")
+DATABASE_NAME = environ.get('DATABASE_NAME', "czaks")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Aks')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002075513033'))
 QR_CODE = environ.get('QR_CODE', 'https://t.me/Nobi_Movies_Request/7')
