@@ -25,7 +25,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', 'https://t.me/Dhruvmradiya')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002075513033'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Nobi_Movies_Request')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002084096213').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002084096213 -1002137961726').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://czlinksowner:nobibhai@cluster0.tbarshs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://czlinksowner:nobibhai@cluster0.9nphzyd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "czaks")
@@ -53,7 +53,7 @@ TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001513688942'))
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1001513688942'))
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002123911594'))
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001987729563'))
 
 # hastags request features
